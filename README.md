@@ -19,10 +19,10 @@
 1. Seguir la guia de instalacion de SDL2 para Visual Studio 2019: https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvc2019/index.php
 2. Instalar SDL2_ttf (https://github.com/libsdl-org/SDL_ttf/releases), SDL2_Image (https://github.com/libsdl-org/SDL_image/releases), SDL2_mixer (https://github.com/libsdl-org/SDL_mixer/releases)
 3. Agregar las biblotecas adicionales a las configuraciones: Solution explorer -> Properties -> C/C++ -> General -> Additional Incluude Directories 
-> "C:\SDL2\SDL2-2.x.x\include"
-> "C:\SDL2\SDL2_ttf-2.x.x\include"
-> "C:\SDL2\SDL2_image-2.x.x\include"
-> "C:\SDL2\SDL2_mixer-2.x.x\include"
+> "C:\SDL2\SDL2-2.x.x\include" \
+> "C:\SDL2\SDL2_ttf-2.x.x\include" \
+> "C:\SDL2\SDL2_image-2.x.x\include" \
+> "C:\SDL2\SDL2_mixer-2.x.x\include" \
 4. Agregar las bibloteas adicionales al Linker: Solution explorer -> Properties -> Linker -> General -> Additional Libary Directories 
 > "C:\SDL2\SDL2-2.x.x\lib\x64"
 > "C:\SDL2\SDL2_ttf-2.x.x\lib\x64"
